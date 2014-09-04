@@ -70,7 +70,7 @@ Downvote.downvote = function(data) {
 Downvote.addNavigation = function(header, cb) {
   header.plugins.push({
     route: '/downvote'
-  , icon: 'fa-chevron-up'
+  , icon: 'fa-chevron-down'
   , name: 'Downvotes'
   })
   cb(null, header)
