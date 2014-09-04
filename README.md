@@ -1,6 +1,6 @@
 # nodebb-plugin-downvote-post
 
-Plugin to send a POST request whenever a post is downvote.
+Plugin to send a POST request whenever a post is downvoted.
 
 ### Install
 
