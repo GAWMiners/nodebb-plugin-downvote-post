@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-downvote-post",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Send a post request on downvote",
   "main": "index.js",
   "dependencies": {
