@@ -1,0 +1,13 @@
+{
+  "id": "nodebb-plugin-downvote-post",
+  "name": "Downvote Post",
+  "description": "Send post request on action:post.downvote",
+  "url": "https://github.com/GAWMiners/nodebb-plugin-downvote-post",
+  "library": "./index.js",
+  "hooks": [
+    { "hook": "action:post.downvote", "method": "downvote" },
+    { "hook": "filter:admin.header.build", "method": "addNavigation" },
+    { "hook": "static:app.load", "method": "init" }
+  ],
+  "templates": "./templates"
+}

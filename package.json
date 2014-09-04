@@ -1,0 +1,25 @@
+{
+  "name": "nodebb-plugin-downvote-post",
+  "version": "0.0.0",
+  "description": "Send a post request on downvote",
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.40.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "downvote",
+    "post"
+  ],
+  "author": "Evan Lucas <evan@btc.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GAWMiners/nodebb-plugin-downvote-post"
+  },
+  "homepage": "https://github.com/GAWMiners/nodebb-plugin-downvote-post",
+  "bugs": {
+    "url": "https://github.com/GAWMiners/nodebb-plugin-downvote-post/issues"
+  }
+}
